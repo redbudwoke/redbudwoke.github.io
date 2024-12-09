@@ -6,7 +6,6 @@ const submitButton = document.getElementById('submit-btn');
 const questions = [
   "Do you like Romani people?",
   "Are there at at least 3 genders?",
-  "Do you think girls and women the same gender?",
   "Should gays get a whole months to themselves?",
   "Is it acceptable that Trans Day of visibility was on Easter?",
   "Is 'xe/xem' valid?",
@@ -15,9 +14,9 @@ const questions = [
   "Do you think Poly people are valid?",
   "Do you think trans women are women?",
   "Should trans people be allowed in sports?", 
-  "Should we can gender neatrinal?", 
+  "Should we only have gender neutral bathrooms?", 
   "Should people introduce themselves with pronouns?", 
-  "Are gender fluid people not?", 
+  "Are gender fluid people valid?", 
   "Can they/them be one person?",
   "Should we allow trans kids?",
   "Should we do surgery on transgender aliens in prisons?", 
@@ -42,6 +41,7 @@ const questions = [
   "Do you hold space for voices?",
   "Do you know what IDAHOBIT is?", 
   "Is it OK for men to cry?", 
+  "Do you think girls and women are not the same gender?",
   "Do you identify as LGBTQ+?", 
   "Should employees be able to fire gays?", 
   "Do they have to bake the cake for the gay wedding?", 
@@ -78,7 +78,7 @@ const questions = [
   "Is it gay to have sex with men as a man?",
   "Should we still be wearing a mask?",
   "Should Settlers of Catan be renamed to Catan?",
-  "Is not masking every day a form of abilism?",
+  "Is not masking every day a form of ableism?",
   "Should we force radical reflection diaries?",
   "Should we get rid of borders?", 
   "Should neurodiversity be celebrated?", 
@@ -91,9 +91,9 @@ const questions = [
   "Should you spell 'folx' with an x?", 
   "Can only Black people say the N-word?",
   "Is masculinity bad?",
-  "Is it abilist to tell people to touch grass?",
+  "Is it ableist to tell people to touch grass?",
   "Is diagnosis a priviledge?",
-  "Is it abilist to say 'wheel-chair bound' instead of 'in a wheelchair'?", 
+  "Is it ableist to say 'wheel-chair bound' instead of 'in a wheelchair'?", 
   "Should we say people with different abilities instead of disabled?",
   "Is it classist to say with homeless instead of unhoused?", 
   "Are zoos unethical?",
@@ -105,7 +105,6 @@ const questions = [
   "Should we ban cars?", 
   "Is domestic terrorism valid?", 
   "Should the British Museum give their shit back?"
-  // Add more categories and unique questions
 ];
 
 // Generate questions dynamically
